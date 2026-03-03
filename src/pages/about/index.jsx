@@ -1,4 +1,4 @@
-function Sobre() {
+function About() {
     return(
       <div>
         <h1>Sobre</h1>
@@ -9,4 +9,4 @@ function Sobre() {
     )
 }
 
-export default Sobre;
+export default About;
