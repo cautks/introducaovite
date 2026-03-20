@@ -4,12 +4,14 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './pages/home';
 import Exemplo01 from './pages/exemplos/ex-01';
 import Exemplo02 from './pages/exemplos/ex-02';
+import Atividade01 from './pages/atividades/index.jsx';
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Exemplo/1" element={<Exemplo01 />} />
       <Route path="/Exemplo/2" element={<Exemplo02 />} />
+      <Route path="/Atividade/1" element={<Exemplo02 />} />
     </Routes>
   )
 }
