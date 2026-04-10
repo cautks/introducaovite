@@ -16,7 +16,9 @@ function Home() {
         
         <div className={styles.containerCards}>    
           <h2>Atividades</h2>
-          <Link to="/Atividade/1/">Atividade01- </Link>       
+          <Link to="/Atividade/1/">Atividade01- </Link>
+
+                    <Link to="/Atividade/2">Atividade 2 - UseState</Link>         
         </div>
     </div>
   )
