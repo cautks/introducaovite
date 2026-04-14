@@ -14,6 +14,9 @@ export default function Atividade02() {
         setNum(num - 1);
     }
 
+        function Zerar() {
+        setNum(0);
+    }
     return (
         <div className={styles.container}> 
        
