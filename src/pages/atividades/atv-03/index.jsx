@@ -17,13 +17,13 @@ function Atividade03() {
     return (
         <div className={styles.container}>
             <h1>Exemplo 4 - Uso de componentes</h1>
-            <h2>O valor atual é: {Funcao}</h2>
+            <h2>O valor atual é: {Funcao}</h2>      
 
          
-            <Botao texto="Cadastrar" aoClicar={Cadastrar    } />
-            <Botao texto="Editar" aoClicar={Editar}  />
+            <Botao texto="Cadastrar" aoClicar={Cadastrar} style={{ backgroundColor: "#000" }} />
+            <Botao texto="Editar" aoClicar={Editar}    />
             <Botao texto="Listar" aoClicar={Listar}  />
-            <Botao texto="Excluir " aoClicar={Excluir}  />
+            <Botao texto="Excluir " aoClicar={Excluir}  />  
             <Botao texto="Cancelar" aoClicar={Cancelar} />
         </div>
     );
