@@ -1,15 +1,9 @@
-/**
- * @file   src\pages\exemplos\ex-05\index.jsx
- * @author Ewerton
- * @date   2026-04-14
- * @desc   [Descrição do componente ou arquivo]
- */
 
 import { useState } from 'react';
 
 import styles from './index.module.css';
 
-export default function Exemplo05() {
+export default function Atividade04() {
     // exemplo básico entrada de dados
     const [nome, setNome] = useState('');
     // exemplo uso real
