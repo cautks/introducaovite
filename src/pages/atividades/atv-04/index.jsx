@@ -1,7 +1,6 @@
 
 import { useState } from 'react';
 
-import styles from './index.module.css';
 
 export default function Atividade04() {
     // exemplo básico entrada de dados
